@@ -1,6 +1,13 @@
 DESCRIPTION
+A multithreaded client/server Chat application based on the console which uses Java Socket programming and multi-threading.
 
-This is a java application based on Socket Programming, where communication is established using the concept of 3 way
-handshaking. This 3-way handshaking is used so that both ends can initiate and negotiate separate TCP socket connections 
-at the same time. The server acts as a middleware between the two clients.
+SERVER
+1.Listens on the network and waits for any client to connect.
+2.Once a client is connected can send message to the client or receive from the client.
+Note:Multiple clients can be connected.
+
+Client
+1.Connects to the server on the local port no.
+2.Can send and receive mesaages from the server.
+
 
